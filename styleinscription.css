@@ -1,0 +1,18 @@
+.img {
+    border-radius: 50px;
+    animation-name: baby;
+    transition: 2s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    flex-direction: row;
+    width: 150px;
+    height: 100px;
+}
+@keyframes baby {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100;
+    }
+}

@@ -1,0 +1,26 @@
+.animation img {
+    background-color: palevioletred;
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+    animation-name: baby;
+    transition: 2s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    flex-direction: row;
+}
+
+section {
+    border-radius: 50px;
+}
+footer {
+    border-radius: 50px;
+}
+@keyframes baby {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100;
+    }
+}

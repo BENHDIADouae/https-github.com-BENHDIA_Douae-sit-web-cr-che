@@ -1,0 +1,16 @@
+#colorpink {
+    color :rgb(252, 87, 142);
+}
+#colorgreen {
+    color :green;
+}
+.main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: linear-gradient(to top, aqua, pink);
+    background-image:  url(iZmytBisQy.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}

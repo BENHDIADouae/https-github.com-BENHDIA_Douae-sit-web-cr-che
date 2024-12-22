@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: palevioletred;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+li:hover {
+    background-color: pink;
+}
+.main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: linear-gradient(to top, aqua, pink);
+    background-image:  url(Screenshot_20241218-002730.png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.calendrier {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.calendrier div {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.calendrier .day {
+    font-weight: bold;
+    color: #4CAF50;
+}
+.calendrier .activity {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+.calendrier .activity:hover {
+    background-color: #80e27e;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.day-number {
+    font-size: 18px;
+    font-weight: bold;
+}
+.main1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: linear-gradient(to top, aqua, pink);
+    background-image:  url(Screenshot_20241218-002730.png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
